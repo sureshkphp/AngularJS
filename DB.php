@@ -14,6 +14,8 @@ class DB {
     private $dbPassword = '';
     private $dbName     = 'codexworld';
     public $db;
+	
+	
     
     /*
      * Connect to the database and return db connecction
@@ -30,6 +32,11 @@ class DB {
             }
         }
     }
+	
+	
+	public function test() {
+			echo  "test content";
+	}
     
     /*
      * Returns rows from the database based on the conditions
